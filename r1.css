@@ -1,0 +1,119 @@
+body{
+    background-image: url(p12.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}header{
+    background-color: transparent !important;
+    display: flex;
+    height: 100px;
+}
+.a{
+    color: rgb(58, 107, 150);
+    padding: 10px;
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 130px;
+    padding: 10px;
+}
+.a:hover{
+    background-image: linear-gradient(orange,white,green);
+}
+#home{
+    padding-top: 10px;
+}
+#about{
+    text-align: center;
+}
+#grid{
+    display: flex;
+}
+.para1{
+    font-size:x-large;
+    color: yellow;
+    text-transform: uppercase;
+}
+#menu{
+    text-align: center;
+}
+.grid1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 50px;
+    
+}
+.item1{
+    margin-bottom: 50px;
+    
+}
+#Videos{
+    text-align: center;
+    font-size: x-large;
+}
+#vdo{
+    overflow: auto auto;
+    white-space: nowrap;
+    padding-top: 2%;
+}
+#vdo .slide{
+    display: inline-block;
+}
+#products{
+    color: chartreuse;
+}
+
+form{
+    padding: 30px;
+    text-align: center;
+    background-color:gray;
+    border-radius: 10%;
+    margin-left: 200px;
+    
+}
+.inputbox{
+    padding: 20px;
+}
+label{
+    color: aqua;
+}
+.btn input{
+    background-color: aquamarine;
+}
+.btn input:hover{
+    background-color: rgb(255, 0, 242);
+}
+.cr{
+    display: flex;
+    margin-left: 100px;
+    
+}
+.last a{
+    color:sandybrown;
+    padding: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.last{
+    margin-left: 120px;
+}
+#rew{
+    color: rgb(30, 32, 167);
+    font-size: xx-large;
+    background-color: aquamarine;
+}
+
+footer{
+    padding: 20px;
+    background-color:grey;
+    margin-top: 30px;
+}
